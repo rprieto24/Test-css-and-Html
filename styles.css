@@ -1,0 +1,39 @@
+body {
+    color: cornsilk;
+    background-color:black;    
+    background-image:url(imagenes/Fond.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;    
+    background-attachment: fixed;
+    background-size: cover;
+    height: 1800px;
+    padding: 100px;
+    border: white, 5px, solid;
+}
+
+#name {
+    font-family: 'Lobster', cursive; 
+    color:white;
+}
+
+#home {
+    font-family: 'MonteCarlo', cursive;
+    padding: auto;
+    margin: auto;    
+}
+#name,#home{
+    text-align: center;
+    padding: auto;
+    margin: auto;
+}
+
+
+.picture {
+    display:block;    
+    margin: auto;
+    padding: auto; 
+    height: 280px;
+    width: 280px;
+    border: white, 5px, solid;
+    border-radius: 50%;           
+}
